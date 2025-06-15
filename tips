@@ -1,0 +1,5 @@
+■ 건축하기 좋은 평지맵 생성
+  1. server.properties에서 
+  2. "level-type=minecraft\:flat"으로 변경
+  3. "generator-settings={"biome"\:"minecraft\:plains","layers"\:[{"block"\:"minecraft\:bedrock","height"\:1},{"block"\:"minecraft\:stone","height"\:60},{"block"\:"minecraft\:dirt","height"\:3},{"block"\:"minecraft\:grass_block","height"\:1}],"structures"\:{}}"으로 변경
+  4. world 폴더 삭제 후 서버 다시 구동
